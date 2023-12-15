@@ -7,7 +7,7 @@ xkb_symbols "pro" {
     key <AD04>  {[          r,          R,         braceleft]};
     key <AD05>  {[          t,          T,         braceright]};
         //for those poor souls forced to interact with windows systems
-    key <AD06>  {[          t,          T,         backslash]}; 
+    key <AD06>  {[          z,          Z,         backslash]}; 
     key <AD07>  {[          u,          U,         slash,       asciitilde]};
     key <AD08>  {[          i,          I,         less,        ampersand]};
     key <AD09>  {[          o,          O,         greater,     percent]};
