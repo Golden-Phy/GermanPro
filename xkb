@@ -2,12 +2,12 @@ partial alphanumeric_keys
 xkb_symbols "pro" {
     include "de(basic)"
     name[Group1] = "German (Pro)";      
-    key <AD01>  {[          q,          Q,         braceleft]};       
     key <AD02>  {[          w,          W,         parenleft]};
-    key <AD03>  {[          e,          E,         parenright]};   
-    key <AD04>  {[          r,          R,         braceright]};
+    key <AD03>  {[          e,          E,         parenright]};
+    key <AD04>  {[          r,          R,         braceleft]};
+    key <AD05>  {[          t,          T,         braceright]};
         //for those poor souls forced to interact with windows systems
-    key <AD05>  {[          t,          T,         backslash]}; 
+    key <AD06>  {[          t,          T,         backslash]}; 
     key <AD07>  {[          u,          U,         slash,       asciitilde]};
     key <AD08>  {[          i,          I,         less,        ampersand]};
     key <AD09>  {[          o,          O,         greater,     percent]};
